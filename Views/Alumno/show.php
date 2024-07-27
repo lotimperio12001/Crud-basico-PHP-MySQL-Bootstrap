@@ -32,7 +32,7 @@
 						<td> <a href="?controller=alumno&&action=updateshow&&idAlumno=<?php  echo $alumno->getId()?>"> <?php echo $alumno->getId(); ?></a> </td>
 						<td><?php echo $alumno->getNombres(); ?></td>
 						<td><?php echo $alumno->getApellidos(); ?></td>
-						<td><?php if ( $alumno->getEstado()=='checked'):?>
+						<td><?php if ($alumno->getEstado() == 'checked'):?>
 							Activo
 						<?php  else:?>
 							Inactivo
